@@ -23,6 +23,9 @@ if (workEvents) {
   planWorkday = workEvents;
 }
 
+/*current day tag */
+$("#currentDay").text(today);
+
 /*creating rows where the inputs will be */
   planWorkday.forEach(function(timeBlock, index) {
 	var timeLabel = timeBlock.time;
