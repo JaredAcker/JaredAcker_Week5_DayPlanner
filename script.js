@@ -38,4 +38,18 @@ var planWorkday = [
 $("#currentDay").text(today);
 
 /*Creating a save button function */
-$(".saveBtn").on("click", function()
+$(".saveBtn").on("click", function() {
+	var blockID = parseInt(
+		$(this)
+			.closest(".time-block")
+			.attr("id")
+	);
+	var userEntry = $.trim(
+		$(this)
+			.parent()
+			.siblings("textarea")
+			.val()
+	);
+	planWorkday[blockID].event = userEntry;
+
+});
