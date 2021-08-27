@@ -1,5 +1,8 @@
 # JaredAcker_Week5_DayPlanner
 
+# Screenshot
+
+
 # Live Site
 https://jaredacker.github.io/JaredAcker_Week5_DayPlanner/
 
