@@ -36,3 +36,6 @@ var planWorkday = [
 
 /*Current day tag */
 $("#currentDay").text(today);
+
+/*Creating a save button function */
+$(".saveBtn").on("click", function()
