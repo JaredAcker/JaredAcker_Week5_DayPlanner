@@ -16,3 +16,10 @@ var planWorkday = [
     { time: "4 PM", event: "" },
     { time: "5 PM", event: "" },
   ];
+
+/*creating rows where the inputs will be */
+  planWorkday.forEach(function(timeBlock, index) {
+	var timeLabel = timeBlock.time;
+	var blockColor = colorRow(timeLabel);
+
+});
