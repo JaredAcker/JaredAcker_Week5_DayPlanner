@@ -28,6 +28,3 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
-## Screenshot
-
-![](images/Screenchot%2032.png "screenshot")
