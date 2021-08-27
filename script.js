@@ -17,6 +17,12 @@ var planWorkday = [
     { time: "5 PM", event: "" },
   ];
 
+  /*Checks local storage */
+  var workEvents = JSON.parse(localStorage.getItem("workDay"));
+if (workEvents) {
+  planWorkday = workEvents;
+}
+
 /*creating rows where the inputs will be */
   planWorkday.forEach(function(timeBlock, index) {
 	var timeLabel = timeBlock.time;
